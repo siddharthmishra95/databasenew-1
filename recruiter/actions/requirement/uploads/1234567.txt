@@ -1,0 +1,71 @@
+recruiter
+-dashboard
+-add
+-edit
+-view
+-requirement
+
+
+shared
+css
+js
+
+-header
+-footer
+-sidebar
+
+
+Shortlist
+id     shortlistingstatus   candidate_id employee_id  shortlisting_date
+1	Zoom			
+2	Pending
+3	Hold
+4	Reject
+5	F2F
+
+
+
+
+
+Sidebar
+-Candidate Database
+--Automobile-------Add Candidate -- Add duplicate Candidate - Add Renaiming candidate
+--Refinery---------Add Candidate -- Add duplicate Candidate - Add Renaiming candidate
+
+
+Joining Database
+--add joining candidates
+--View Candidates
+
+Requirement
+--Add Requirement
+--View Requirement
+
+Super Admin
+Total Automobile Candidates
+Today Automobile Entry
+Total Refinery Candidates
+Today Refinery Entry
+Total Requirement 
+Total Joining Candidate
+Today Joining
+Yet to Joined
+Offered Candidate on This Month
+No of Candidate Joining On this month
+User Management
+Client Addition 
+Department Addition
+With Excel
+
+Admin
+All data Without Excel
+YTJ Candidates
+Shortlisting Status
+Client Addition 
+Department Addition
+
+
+Temp User 
+Today's Entry
+Dept. And Dept. Definition
+
