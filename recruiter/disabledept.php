@@ -8,5 +8,6 @@ $query = "UPDATE dept set dept_status = $dept_status where id = $id";
 mysqli_query($conn, $query);
 header('location:department.php');
 
+
 /******************************************ENABLE AND DISABLE DEPARTMENT*********************************************/ 
 ?>
