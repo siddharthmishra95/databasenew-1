@@ -175,7 +175,7 @@ $department=$_POST['department'];
 $oldresume=$_POST['oldresume'];
 
 if(isset($_FILES['resume']['name'])&&($_FILES['resume']['name']!="")){
-$newresume="uploads/".$_FILES['resume']['name'];
+$newresume="../uploads/".$_FILES['resume']['name'];
 unlink($oldresume);
 move_uploaded_file($_FILES['resume']['tmp_name'], $newresume);
 }
@@ -298,7 +298,7 @@ if(isset($_GET['duplicate'])){
   $oldresume=$_POST['oldresume'];
   
   if(isset($_FILES['resume']['name'])&&($_FILES['resume']['name']!="")){
-  $newresume="uploads/".$_FILES['resume']['name'];
+  $newresume="../uploads/".$_FILES['resume']['name'];
   unlink($oldresume);
   move_uploaded_file($_FILES['resume']['tmp_name'], $newresume);
   }
@@ -317,11 +317,5 @@ if(isset($_GET['duplicate'])){
   
 
 
-
-
-
-
-
-
-
+  
 ?>
